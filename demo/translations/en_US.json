@@ -1,0 +1,26 @@
+{
+  "fb-locale": "en_US",
+  "translations": {
+    "2ACDbb61anCO4GtU08qc2g==": {
+      "translations": [
+        {
+          "translation": "FBT Demo"
+        }
+      ]
+    },
+    "j5kdwgCXVnf1+ilFJuPyLw==": {
+      "translations": [
+        {
+          "translation": "A sentence describing stuff..."
+        }
+      ]
+    },
+    "9F/1hx6F9qkSSMJnXEFtOQ==": {
+      "translations": [
+        {
+          "translation": "Toggle locale:"
+        }
+      ]
+    }
+  }
+}

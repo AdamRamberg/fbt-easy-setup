@@ -1,0 +1,26 @@
+{
+  "fb-locale": "sv_SE",
+  "translations": {
+    "2ACDbb61anCO4GtU08qc2g==": {
+      "translations": [
+        {
+          "translation": "FBT Demo"
+        }
+      ]
+    },
+    "j5kdwgCXVnf1+ilFJuPyLw==": {
+      "translations": [
+        {
+          "translation": "En mening som beskriver saker..."
+        }
+      ]
+    },
+    "9F/1hx6F9qkSSMJnXEFtOQ==": {
+      "translations": [
+        {
+          "translation": "Ändra språk:"
+        }
+      ]
+    }
+  }
+}
