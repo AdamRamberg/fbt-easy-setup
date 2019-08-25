@@ -2,21 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import fbt from 'fbt';
 import { LocaleProvider } from 'fbt-easy-setup';
-import ToggleLocale from './toggleLocale';
+import SelectLocale from './components/selectLocale';
+import FlagEmoji from './components/flagEmoji';
+import './app.css';
 
 const App = () => (
   <LocaleProvider>
-    <div>
-      <h1>
-        <fbt desc="demo heading">FBT Demo</fbt>
-      </h1>
-      <p>
-        <fbt desc="demo body">A sentence describing stuff...</fbt>
-      </p>
-      <span>
-        <fbt desc="demo toggle label">Toggle locale:</fbt>
-      </span>
-      <ToggleLocale />
+    <div className="main-container">
+      <div className="toggle-container">
+        <h1>
+          <fbt desc="Toggle heading">FBT Easy Setup Demo</fbt>
+        </h1>
+        <FlagEmoji />
+        <p>
+          <fbt desc="Greeting">Howdy!</fbt>
+        </p>
+        <SelectLocale />
+      </div>
     </div>
   </LocaleProvider>
 );

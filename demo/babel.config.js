@@ -23,5 +23,7 @@ module.exports = api => {
       'babel-plugin-fbt-runtime',
       '@babel/plugin-proposal-class-properties',
     ],
+    // NOTE: Needed for enums to work.
+    sourceType: 'unambiguous',
   };
 };

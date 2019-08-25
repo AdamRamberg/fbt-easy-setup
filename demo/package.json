@@ -21,14 +21,17 @@
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-fbt": "^0.9.12",
     "babel-plugin-fbt-runtime": "^0.9.1",
     "core-js": "^3.2.1",
+    "css-loader": "^3.2.0",
     "fbt-generate-translations": "^0.0.4",
     "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
@@ -38,6 +41,7 @@
     "fbt-easy-setup": "file:../dist",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-select": "^3.0.4"
   }
 }

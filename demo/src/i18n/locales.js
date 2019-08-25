@@ -11,4 +11,22 @@ module.exports = {
     englishName: 'Swedish',
     rtl: false,
   },
+  it_IT: {
+    bcp47: 'it-IT',
+    displayName: 'Italiano',
+    englishName: 'Italian',
+    rtl: false,
+  },
+  de_DE: {
+    bcp47: 'de-DE',
+    displayName: 'Deutsch',
+    englishName: 'German',
+    rtl: false,
+  },
+  es_ES: {
+    bcp47: 'es-ES',
+    displayName: 'Español',
+    englishName: 'Spanish',
+    rtl: false,
+  },
 };

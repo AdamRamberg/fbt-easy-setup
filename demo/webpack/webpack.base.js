@@ -19,6 +19,13 @@ module.exports = options => ({
     filename: '[name].[hash].js',
     chunkFilename: '[name].[chunkhash].js',
   },
+  resolve: {
+    modules: [
+      path.resolve(__dirname, '../src'),
+      path.resolve(__dirname, '../src/i18n'),
+      '../node_modules',
+    ],
+  },
   module: {
     rules: [
       {
@@ -29,6 +36,10 @@ module.exports = options => ({
             loader: 'babel-loader',
           },
         ],
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },

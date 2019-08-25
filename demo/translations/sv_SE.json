@@ -1,24 +1,52 @@
 {
   "fb-locale": "sv_SE",
   "translations": {
-    "2ACDbb61anCO4GtU08qc2g==": {
+    "hs1UHxepTF4hqn3Pfl2Fyg==": {
       "translations": [
         {
-          "translation": "FBT Demo"
+          "translation": "FBT Easy Setup Demo"
         }
       ]
     },
-    "j5kdwgCXVnf1+ilFJuPyLw==": {
+    "f1VH98EV3q7kyMHnUiY8NA==": {
       "translations": [
         {
-          "translation": "En mening som beskriver saker..."
+          "translation": "Engelska (US)"
         }
       ]
     },
-    "9F/1hx6F9qkSSMJnXEFtOQ==": {
+    "H24UvZRLaQLIM7qQCVuI9Q==": {
       "translations": [
         {
-          "translation": "Ändra språk:"
+          "translation": "Svenska"
+        }
+      ]
+    },
+    "qeFczAgyY+SCRMdyPP438A==": {
+      "translations": [
+        {
+          "translation": "Hej!"
+        }
+      ]
+    },
+    "ensAGdj6VOLFBljY2elmcw==": {
+      "translations": [
+        {
+          "translation": "Italienska"
+        }
+      ]
+    },
+    "UOYqgm2EFltdmtXh8WZ7PQ==": {
+      "translations": [
+        {
+          "translation": "Tyska"
+        }
+      ]
+    },
+    "CH5L6w6qPbRRFlofA2KXXQ==": {
+      "translations": [
+        {
+          "translation": "Spanska"
         }
       ]
     }
