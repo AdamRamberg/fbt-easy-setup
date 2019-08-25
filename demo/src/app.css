@@ -61,3 +61,7 @@ body {
 .select {
   min-width: 220px;
 }
+.h1-main-home,
+.link-npm {
+  margin: 0.5rem;
+}

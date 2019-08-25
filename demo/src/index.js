@@ -10,9 +10,15 @@ const App = () => (
   <LocaleProvider>
     <div className="main-container">
       <div className="toggle-container">
-        <h1>
+        <h1 className="h1-main-home">
           <fbt desc="Toggle heading">FBT Easy Setup Demo</fbt>
         </h1>
+        <a
+          className="link-npm"
+          href="https://www.npmjs.com/package/fbt-easy-setup"
+        >
+          https://www.npmjs.com/package/fbt-easy-setup
+        </a>
         <FlagEmoji />
         <p>
           <fbt desc="Greeting">Howdy!</fbt>
