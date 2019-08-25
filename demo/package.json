@@ -15,8 +15,7 @@
     "fbt-generate-translations": "babel-node node_modules/fbt-generate-translations --locales src/i18n/locales.js --multi-files translations",
     "fbt-generate-translations-single-file": "babel-node node_modules/fbt-generate-translations --locales src/i18n/locales.js",
     "prepare-fbts": "yarn manifest-fbts && yarn collect-fbts && yarn fbt-generate-translations && yarn translate-fbts",
-    "prestart": "yarn prepare-fbts",
-    "gh-deploy": "git subtree push --prefix dist origin gh-pages"
+    "prestart": "yarn prepare-fbts"
   },
   "author": "Adam Ramberg",
   "license": "ISC",

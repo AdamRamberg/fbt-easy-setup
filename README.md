@@ -2,6 +2,12 @@
 
 Utilities to get you started using [fbt](https://facebookincubator.github.io/fbt/) in your app.
 
+## Demo
+
+Checkout the demo app: https://adamramberg.github.io/fbt-easy-setup/
+
+The source could be found [here](demo).
+
 ## Prerequisites
 
 fbt-easy-setup the following dependencies to be installed:
@@ -28,10 +34,6 @@ Using npm:
 npm install fbt-easy-setup --save
 
 ```
-
-## Demo
-
-A demo app could be found [here](demo).
 
 ## API
 

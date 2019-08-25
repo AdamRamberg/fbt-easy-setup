@@ -12,7 +12,8 @@
     "build": "yarn clean && yarn rollup && yarn copy-to-dist",
     "clean": "rm -rf dist",
     "copy-to-dist": "cp README.md dist && cp package.json dist/package.json",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "gh-deploy": "git subtree push --prefix demo/dist origin gh-pages"
   },
   "keywords": [
     "fbt",
